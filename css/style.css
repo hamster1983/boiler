@@ -85,12 +85,6 @@ div.row {
 	line-height: 50px;
 }
 
-.top-line {
-	height: 17px;
-	background-color: #a9121f;
-	box-shadow: 0 -1px 5px black;
-}
-
 @media screen and (max-width: 1199px) {
 	.head .container {
 		width: 100%;
@@ -133,9 +127,34 @@ div.row {
 }
 
 
-
-
 /* === МЕНЮ === */
+
+.top-line {
+	height: 17px;
+	background-color: #a9121f;
+	box-shadow: 0 -1px 5px black;
+}
+
+.top-line .container {
+	position: relative;
+}
+
+.top-line nav {
+	position: absolute;
+	z-index: 1;
+	background-color: rgba(255,255,255,.8);
+	border-radius: 0;
+	top: -10px;
+}
+
+.top-line nav .dropdown-toggle {
+	border: 1px solid blue;
+	color: #a9121f;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 0;
+}
+
 
 /*.container-fluid.menu {
 	position: absolute;
