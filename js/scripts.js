@@ -144,7 +144,16 @@ $(window).load(function() {
 	  ] 
 	});
 	
-	$('.opp-items').slick({
+	$('.graf-items').slick({
+	  infinite: true,
+	  autoplay: true,
+	  slidesToShow: 1,
+	  slidesToScroll: 1,
+	  speed: 2000,
+	  autoplaySpeed: 7000
+	})
+	
+	/*$('.opp-items').slick({
 	  infinite: true,
 	  autoplay: true,
 	  autoplaySpeed: 30000,
@@ -154,7 +163,7 @@ $(window).load(function() {
 	  fade: true,
 	  dots: false,
 	  cssEase: 'linear'
-	});
+	});*/
 	
 	$('.mob-items').slick({
 	  infinite: true,
@@ -168,13 +177,13 @@ $(window).load(function() {
 	  cssEase: 'linear'
 	});
 	
-	$('.foto-items').slick({
+	/*$('.foto-items').slick({
 	  infinite: true,
 	  autoplay: false,
 	  speed: 2000,
 	  slidesToShow: 1,
 	  slidesToScroll: 1,
-	});
+	});*/
 	
 	var partside = [$('.front'), $('.back'), $('.top'), $('.bottom')];
 	

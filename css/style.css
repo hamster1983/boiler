@@ -516,8 +516,95 @@ ul.dropdown-menu li a {
 }
 
 
+/* === ГРАФИКИ === */
+
+.container-fluid.grafiki {
+	padding: 50px 0 100px;
+}
+
+.container-fluid.grafiki .slick-prev:before {
+    content: url('../img/graf-arrow-left.png');
+}
+
+.container-fluid.grafiki .slick-next:before {
+    content: url('../img/graf-arrow-right.png');
+}
+
+.container-fluid.grafiki .slick-next,
+.container-fluid.grafiki .slick-prev {
+	height: 52px;
+	width: 23px;
+	top: 95%;
+	z-index: 1;
+}
+
+.container-fluid.grafiki .slick-next {
+	right: 0;
+}
+
+.container-fluid.grafiki .slick-prev {
+	left: 94%;
+}
+
+@media screen and (max-width: 991px) {
+	.container-fluid.grafiki .container {
+		width: 100%;
+	}
+}
+
+
 
 /* === МНЕНИЯ === */
+.container-fluid.oppinion {
+	background-image: url(../img/fon-opp.jpg);
+	padding: 45px 0 80px;
+}
+
+.container-fluid.oppinion h1 {
+	color: white;
+}
+
+.container-fluid.oppinion .opp-item {
+	padding: 30px 100px;
+}
+
+.container-fluid.oppinion .foto {
+	box-shadow: -2px -2px 3px black;
+}
+
+.container-fluid.oppinion .border {
+	background-color: #505050;
+	transform-origin: 0 0;
+	transform: skew(0, -60deg);
+	box-shadow: 0 -5px 3px black;
+}
+
+.container-fluid.oppinion .text {
+	padding: 15px;
+	background-color: white;
+	box-shadow: 0 -3px 3px black;
+	transform: translateY(-25px);
+}
+
+@media screen and (max-width: 1199px) {
+	.container-fluid.oppinion .container {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.container-fluid.oppinion .opp-item {
+		padding: 30px;
+	}
+	.container-fluid.oppinion .text {
+		transform: translateY(-20px);
+	}
+}
+
+@media screen and (max-width: 767px) {
+	
+}
+
 /*
 .container-fluid.oppinion {
 	background-image: url(../img/opp-fon.jpg);
