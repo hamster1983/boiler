@@ -151,6 +151,16 @@ $(window).load(function() {
 	  slidesToScroll: 1,
 	  speed: 2000,
 	  autoplaySpeed: 7000
+	});
+	
+	$('.opp-items').slick({
+	  fade: true,
+	  infinite: true,
+	  autoplay: true,
+	  slidesToShow: 1,
+	  slidesToScroll: 1,
+	  speed: 2000,
+	  autoplaySpeed: 7000
 	})
 	
 	/*$('.opp-items').slick({
