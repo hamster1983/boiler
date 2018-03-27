@@ -48,7 +48,7 @@
 				<nav class="navbar">
 					<div class="navbar-header">
 					  <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".js-navbar">
-						<img src="img/molniya.png" alt="" />
+						
 					  </button>
 					</div>
 					<div class="collapse navbar-collapse js-navbar">
@@ -61,12 +61,11 @@
 						  <ul class="dropdown-menu">
 							<li><a href="#">О выставке</a></li>
 							<li><a href="#">Место проведения</a></li>
-							<li><a href="#">Итоги «ЭЭЭ 2017»</a></li>
+							<li><a href="#">Портрет посетителя</a></li>
 							<li><a href="#">Пресс-релиз</a></li>							
-							<li><a href="#">Список участников</a></li>
+							<li><a href="#">Каталог 2017</a></li>
 							<li><a href="#">Конкурсы в рамках выставки</a></li>
 							<li><a href="#">Новости</a></li>
-							<li><a href="#">Мнения</a></li>
 							<li><a href="#">История выставки</a></li>
 							<li><a href="#">Фото/видео</a></li>
 						  </ul>
@@ -77,12 +76,13 @@
 						  </a>
 						  <ul class="dropdown-menu">
 							<li><a href="#">Заявка на участие</a></li>
-							<li><a href="#">Типовые стенды</a></li>
-							<li><a href="#">Индивидуальные стенды</a></li>
+							<li><a href="#">Строительство стендов</a></li>
 							<li><a href="#">Конкурсы в рамках выставки</a></li>
 							<li><a href="#">Рекламные возможности</a></li>
 							<li><a href="#">Деловая программа</a></li>
-							<li><a href="#">Услуги (бронирование гостиниц, типография, таможня)</a></li>
+							<li><a href="#">Бронирование гостиниц</a></li>
+							<li><a href="#">Таможенное оформление</a></li>
+							<li><a href="#">Погрузочно-разгрузочные работы</a></li>
 							<li><a href="#">Проезд до КВЦ «Экспофорум»</a></li>
 						  </ul>
 						</li>
@@ -91,25 +91,30 @@
 							ПОСЕТИТЕЛЯМ <span class="caret"></span>
 						  </a>
 						  <ul class="dropdown-menu">
+						  	<li><a href="#">Пригласительный билет</a></li>
 							<li><a href="#">Пресс-релиз</a></li>
 							<li><a href="#">Проезд до КВЦ «Экспофорум»</a></li>
 							<li><a href="#">Деловая программа</a></li>
 							<li><a href="#">Бронирование гостиниц</a></li>
-							<li><a href="#">FAQ</a></li>
 						  </ul>
 						</li>
 						<li class="dropdown">
 						  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 							ДЕЛОВАЯ ПРОГРАММА
 						  </a>
+						  <ul class="dropdown-menu">
+						  	<li><a href="#">Принять участие в деловой программе</a></li>
+							<li><a href="#">Конгресс по энергоэффективности</a></li>
+							<li><a href="#">Конкурсы в рамках выставки</a></li>
+						  </ul>
 						</li>
 						<li class="dropdown">
 						  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 							ПРЕССЕ <span class="caret"></span>
 						  </a>
 						  <ul class="dropdown-menu">
-							<li><a href="#">Пресс-релиз 2017</a></li>
-							<li><a href="#">Пост-релиз 2016</a></li>
+							<li><a href="#">Пресс-релиз 2018</a></li>
+							<li><a href="#">Пост-релиз 2017</a></li>
 							<li><a href="#">Партнеры</a></li>
 							<li><a href="#">Сотрудничество</a></li>
 						  </ul>
@@ -594,52 +599,62 @@
 			</div>
 			
 		</div>--><!-- end infopart -->
-		
-		<!-- ФУТЕР -->
-		<!--<div class="container-fluid footer">
+	
+	<!-- КАРТА -->
+		<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCmGFXRuGgIc7h8yFYsIVn3nnnvpKsHsok&extension=.js"></script>
+        <script src="js/map.js"></script>
+        <div id="mapkit-6192"></div>
+
+
+
+	<!-- ФУТЕР -->
+		<div class="container-fluid footer">
 			<div class="container">
 				<div class="row hidden-sm hidden-xs" style="border-bottom: 1px solid white">
 					<div class="col-md-2">
 						<h4>О ВЫСТАВКЕ</h4>
 						<a href="#">О выставке</a><br />
 						<a href="#">Место проведения</a><br />
-						<a href="#">Итоги «ЭЭЭ 2017»</a><br />
+						<a href="#">Портрет посетителя</a><br />
 						<a href="#">Пресс-релиз</a>	<br />						
-						<a href="#">Список участников</a><br />
+						<a href="#">Каталог 2017</a><br />
 						<a href="#">Конкурсы в рамках выставки</a><br />
 						<a href="#">Новости</a><br />
-						<a href="#">Мнения</a><br />
 						<a href="#">История выставки</a><br />
 						<a href="#">Фото/видео</a>
 					</div>
 					<div class="col-md-2">
 						<h4>УЧАСТНИКАМ</h4>
 						<a href="#">Заявка на участие</a><br />
-						<a href="#">Типовые стенды</a><br />
-						<a href="#">Индивидуальные стенды</a><br />
+						<a href="#">Строительство стендов</a><br />
 						<a href="#">Конкурсы в рамках выставки</a><br />
 						<a href="#">Рекламные возможности</a><br />
 						<a href="#">Деловая программа</a><br />
-						<a href="#">Услуги (бронирование гостиниц, типография, таможня)</a><br />
+						<a href="#">Бронирование гостиниц</a><br />
+						<a href="#">Таможенное оформление</a><br />
+						<a href="#">Погрузочно-разгрузочные</a><br />
 						<a href="#">Проезд до КВЦ «Экспофорум»</a>
 					</div>
 					<div class="col-md-2">
 						<h4>ПОСЕТИТЕЛЯМ</h4>
+						<a href="#">Пригласительный билет</a><br />
 						<a href="#">Пресс-релиз</a><br />
 						<a href="#">Проезд до КВЦ «Экспофорум»</a><br />
 						<a href="#">Деловая программа</a><br />
-						<a href="#">Бронирование гостиниц</a><br />
-						<a href="#">FAQ</a>
-					</div>
-					<div class="col-md-2">
-						<h4>ДЕЛОВАЯ ПРОГРАММА</h4>
+						<a href="#">Бронирование гостиниц</a>
 					</div>
 					<div class="col-md-2">
 						<h4>ПРЕССЕ</h4>
-						<a href="#">Пресс-релиз 2017</a><br />
-						<a href="#">Пост-релиз 2016</a><br />
+						<a href="#">Пресс-релиз 2018</a><br />
+						<a href="#">Пост-релиз 2017</a><br />
 						<a href="#">Партнеры</a><br />
 						<a href="#">Сотрудничество</a>
+					</div>
+					<div class="col-md-2">
+						<h4>ДЕЛОВАЯ ПРОГРАММА</h4>
+						<a href="#">Принять участие в деловой программе</a><br />
+						<a href="#">Конгресс по энергоэффективности</a><br />
+						<a href="#">Конкурсы в рамках выставки</a><br />
 					</div>
 					<div class="col-md-2">
 						<h4>КОНТАКТЫ</h4>
@@ -657,15 +672,11 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-3 col-sm-6 logo"><img src="img/logo-energo.png" alt="" /></div>
-					<div class="col-md-4 col-md-offset-5 col-sm-6 icons">
-						<img src="img/tw-foot.png" alt="" />
-						<img src="img/fb-foot.png" alt="" />
-						Все права защищены © 2017
-					</div>
+					<div class="col-xs-1"><a href="https://www.facebook.com/BoilersBurners/" target="_blank"><img src="img/fb.png" alt="" /></a></div>
+					<div class="col-xs-8 col-xs-offset-3 copy">Все права защищены © 2017</div>
 				</div>
 			</div>
-		</div>--><!-- end footer -->
+		</div><!-- end footer -->
 		
 		<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 		<script src="http://code.jquery.com/jquery-migrate-1.1.1.js"></script>

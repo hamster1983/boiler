@@ -1196,45 +1196,57 @@ ul.dropdown-menu li a {
 
 */
 
+/* === КАРТА === */
+
+#mapkit-6192 {
+	height: 320px;
+	width: 100%;
+}
+
+
 /* === ФУТЕР === */
-/*
+
 .container-fluid.footer {
-	background: url('../img/footer-fon.jpg');
-	padding: 10px 0;
+	padding: 30px 0;
 	color: white;
 	font-size: 12.5px;
-	font-family: MyriadProLight, Calibri, 'Arial Narrow', sans-serif;
+	background-color: #810000;
 }
 
 .container-fluid.footer .col-md-2 {
 	padding: 5px;
 }
 
+.container-fluid.footer div.col-md-2:nth-of-type(4) {
+	width: 13.33333%;
+}
+
+.container-fluid.footer div.col-md-2:nth-of-type(5) {
+	width: 20%;
+}
+
 .container-fluid.footer h4 {
-	font-family: MyriadProSemibold, Calibri, 'Arial Narrow', sans-serif;
+	color: #f29114;
+	font-weight: bold;
 }
 
 .container-fluid.footer a {
 	color: white;
 }
 
-.container-fluid.footer .logo {
-	padding-top: 10px;
+.container-fluid.footer [class^="col-xs"] {
+	padding: 20px 0;
 }
 
-.container-fluid.footer .icons {
+.container-fluid.footer .copy {
 	text-align: right;
-	font-size: 14px;
-	padding-top: 20px;
+	font-size: 16px;
 }
 
-.container-fluid.footer .icons img {
-	display: inline-block;
-	margin: 0 5px;
-}
-
-.container-fluid.footer .icons img:last-child {
-	margin-right: 30px;
+@media screen and (max-width: 1199px) {
+	.container-fluid.footer .container {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 767px) {
@@ -1243,7 +1255,7 @@ ul.dropdown-menu li a {
 		text-align: center;
 	}
 }
-*/
+
 
 
 
