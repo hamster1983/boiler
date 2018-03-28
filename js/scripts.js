@@ -1,22 +1,6 @@
 $(document).ready(function(){
-
-	//проверяем на IE и подсовываем другой блок партнёров
-	var browser = function() {
-		if (!!navigator.userAgent.match(/Trident\/7\./) || $.browser.msie) {
-			$('.infopart .wrap').css('display', 'none');
-			$('.infopart .ie-wrap').css('display', 'block');
-		}
-		else if (!navigator.userAgent.match(/Trident\/7\./) || !$.browser.msie) {
-			$('.infopart .ie-wrap').css('display', 'none');
-		}
-	}();
 	
 	new WOW().init();
-	
-	//вращаем кнопку меню в мобильной версии
-	/*$('button.navbar-toggle').click(function(){
-		$('button.navbar-toggle img').toggleClass('rotate');
-	});*/
 	
 	
 	/*(function(){
@@ -163,99 +147,7 @@ $(window).load(function() {
 	  autoplaySpeed: 7000
 	})
 	
-	/*$('.opp-items').slick({
-	  infinite: true,
-	  autoplay: true,
-	  autoplaySpeed: 30000,
-	  speed: 2000,
-	  slidesToShow: 1,
-	  slidesToScroll: 1,
-	  fade: true,
-	  dots: false,
-	  cssEase: 'linear'
-	});*/
-	
-	$('.mob-items').slick({
-	  infinite: true,
-	  autoplay: true,
-	  autoplaySpeed: 30000,
-	  speed: 2000,
-	  slidesToShow: 1,
-	  slidesToScroll: 1,
-	  fade: true,
-	  dots: false,
-	  cssEase: 'linear'
-	});
-	
-	/*$('.foto-items').slick({
-	  infinite: true,
-	  autoplay: false,
-	  speed: 2000,
-	  slidesToShow: 1,
-	  slidesToScroll: 1,
-	});*/
-	
-	var partside = [$('.front'), $('.back'), $('.top'), $('.bottom')];
-	
-	for(var j = 0; j < partside.length; j++) {
-		
-		if(j == 0 || j == 1) {
-			partside[j].slick({
-				  rtl: true,
-				  arrows: false,
-				  dots: false,
-				  infinite: true,
-				  autoplay: true,
-				  autoplaySpeed: 1500,
-				  speed: 1500,
-				  slidesToShow: 3,
-				  slidesToScroll: 1,
-				  responsive: [
-					{
-					  breakpoint: 767,
-					  settings: {
-						slidesToShow: 2,
-					  }
-					},
-					{
-					  breakpoint: 550,
-					  settings: {
-						slidesToShow: 1,
-					  }
-					}
-				  ]
-			});
-		}
-		
-		else {
-			partside[j].slick({
-			  arrows: false,
-			  dots: false,
-			  infinite: true,
-			  autoplay: true,
-			  autoplaySpeed: 1500,
-			  speed: 1500,
-			  slidesToShow: 3,
-			  slidesToScroll: 1,
-			  responsive: [
-				{
-				  breakpoint: 767,
-				  settings: {
-					slidesToShow: 2,
-				  }
-				},
-				{
-				  breakpoint: 550,
-				  settings: {
-					slidesToShow: 1,
-				  }
-				}
-			  ]
-			});
-		}
-	}
-	
-	$('.ie-wrap').slick({
+	$('.part-wrap').slick({
 	  infinite: true,
 	  autoplay: true,
 	  speed: 1500,
