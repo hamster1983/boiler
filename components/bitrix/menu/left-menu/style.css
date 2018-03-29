@@ -1,0 +1,41 @@
+/* Left menu*/
+ul.left-menu
+{
+	list-style:none;
+	margin:0; padding:0;
+	margin-bottom:8px;
+	position: relative; /*IE bug*/
+}
+
+ul.left-menu li
+{
+	padding: 10px 16px;
+}
+
+ul.left-menu li a
+{
+	font-size:18px;
+	color:#959595;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+ul.left-menu li:hover
+{
+	background: #dde789;
+}
+
+ul.left-menu li.active {
+	background: #dde789;
+}
+
+ul.left-menu li a.selected:link,
+ul.left-menu li a.selected:visited,
+ul.left-menu li a.selected:active,
+ul.left-menu li a.selected:hover
+{
+	color:#959595;
+}
+
+
+

@@ -672,143 +672,25 @@ div.row {
 }
 
 
-/* === КОНКУРСЫ === */
-/*
-.container-fluid.konkurs {
-	background: url('../img/konk-fon.jpg');
-	padding: 30px 0;
+/* === КОНГРЕСС + КОНКУРС === */
+
+.container-fluid.kon {
+	background: url('../img/fon-kon.jpg');
+	padding: 30px 0 50px;
 }
 
-.container-fluid.konkurs h1 {
+.container-fluid.kon p {
+	color: white;
 	text-align: center;
-	margin: 20px 0;
+	font-size: 26px;
+	width: auto;
+	max-width: 1000px;
+	margin: 30px auto;
 }
 
-.container-fluid.konkurs p {
-	font-size: 18px;
-	text-align: center;
-	margin-bottom: 15px;
+.container-fluid.kon img {
+	margin: 10px auto;
 }
-
-.container-fluid.konkurs .row {
-	padding: 0;
-	margin: 0;
-}
-
-.container-fluid.konkurs .col-lg-4 {
-	padding: 0;
-}
-
-.container-fluid.konkurs .konk-item {
-	width: 350px;
-	height: 275px;
-	margin: 15px auto;
-	padding: 15px;
-	background-color: rgba(255,255,255,.5);
-	box-shadow: 1px 1px 2px #303030;
-}
-
-.container-fluid.konkurs .konk-item .partkonk {
-	margin: 0 auto;
-}
-
-.container-fluid.konkurs .konk-item p:nth-child(2) {
-	font-size: 22px;
-	line-height: 24px;
-	height: 80px;
-	margin-bottom: 10px;
-}
-
-.container-fluid.konkurs .konk-item p:nth-child(3) {
-	margin: 5px;
-}
-
-.container-fluid.konkurs .konk-item p:nth-child(4) a {
-	color: #3b3c3f;
-	font-size: 14px;
-}
-
-@media screen and (max-width: 991px) {
-	.container-fluid.konkurs .container {
-		width: 99%;
-	}
-}
-
-@media screen and (max-width: 420px) {
-	.container-fluid.konkurs .konk-item {
-		width: 100%;
-	}
-	.container-fluid.konkurs .konk-item p:nth-child(2) {
-		font-size: 20px;
-		line-height: 22px;
-	}
-}
-*/
-
-
-/* === КОНГРЕСС === */
-/*
-.container-fluid.kongress {
-	background: url('../img/kongress-fon.jpg');
-	padding: 75px 0 50px;
-}
-
-.container-fluid.kongress .top-block p:first-child {
-	color: #f8f400;
-	font-family: MyriadProBold, Calibri, 'Arial Narrow', sans-serif;
-	font-size: 34px;
-	text-shadow: 1px 1px 2px black;
-	padding-left: 80px;
-	margin: 0;
-}
-
-.container-fluid.kongress .top-block p:last-child {
-	color: #e7d9a9;
-	font-family: MyriadProSemibold, Calibri, 'Arial Narrow', sans-serif;
-	font-size: 36px;
-	text-shadow: 2px 2px 3px black;
-	margin: 0;
-	line-height: 38px;
-}
-
-.container-fluid.kongress .top-block p:last-child img {
-	float: left;
-	margin-right: 10px;
-}
-
-@media screen and (max-width: 1199px) {
-	.container-fluid.kongress {
-		padding: 20px 0;
-	}
-	.container-fluid.kongress .container {
-		width: 90%;
-	}
-	.container-fluid.kongress .bottom-block img {
-		margin: 20px auto 0;
-	}
-}
-
-@media screen and (max-width: 690px) {
-	.container-fluid.kongress .top-block p:first-child {
-		padding-left: 0;
-		text-align: center;
-	}
-}
-
-@media screen and (max-width: 590px) {
-	.container-fluid.kongress .top-block p:first-child {
-		line-height: 38px;
-	}
-	.container-fluid.kongress .top-block p:last-child {
-		text-align: center;
-		font-size: 26px;
-		line-height: 28px;
-	}
-	.container-fluid.kongress .top-block p:last-child img {
-		display: none;
-	}
-}
-*/
 
 
 /* === НОВОСТИ === */

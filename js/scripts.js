@@ -2,23 +2,6 @@ $(document).ready(function(){
 	
 	new WOW().init();
 	
-	
-	/*(function(){
-			var date_start = new Date("november,21,2017,10:00:00");
-			var one_day = 1000 * 60 * 60 * 24;
-			var date_now = new Date();
-			var diff = Math.abs(date_start.getTime() - date_now.getTime());
-			var num_days = Math.round(diff/one_day).toString();
-			var day;
-		    if (num_days.substr(-1) == 1 && num_days.substr(-2) != 11) { day = 'день';}
-		    else if (num_days.substr(-1) == 2 && num_days.substr(-2) != 12) { day = 'дня';}
-		    else if (num_days.substr(-1) == 3 && num_days.substr(-2) != 13) { day = 'дня';}
-		    else if (num_days.substr(-1) == 4 && num_days.substr(-2) != 14) { day = 'дня';}
-		    else { day = 'дней';}
-		$('.aside .counter .num').text(num_days);
-		$('.aside .counter .days').append(day);
-	}());*/
-	
 	$('.main-btns .ticket').hover(
 	function(){
 	  $(this).attr('src', 'img/hover-ticket.png');
@@ -51,40 +34,26 @@ $(document).ready(function(){
 	  $(this).attr('src', 'img/sponsor.png');
 	});
 	
-	/*$('.partkonk').hover(
+	$('.kongress').hover(
 	function(){
-	  $(this).attr('src', 'img/hover-part.png');
+	  $(this).attr('src', 'img/hover-kongress.png');
 	},
 	function(){
-	  $(this).attr('src', 'img/part.png');
+	  $(this).attr('src', 'img/kongress.png');
 	});
 	
-	$('.kong').hover(
+	$('.konkurs').hover(
 	function(){
-	  $(this).attr('src', 'img/hover-kong.png');
+	  $(this).attr('src', 'img/hover-konkurs.png');
 	},
 	function(){
-	  $(this).attr('src', 'img/kong.png');
-	});
-	
-	$('.watch-foto').hover(
-	function(){
-	  $(this).attr('src', 'img/hover-watch-foto.png');
-	},
-	function(){
-	  $(this).attr('src', 'img/watch-foto.png');
-	});*/
-	
-	
-	//убираем фокус с баннеров инфорпартнеров при клике на них
-	$('.cube a').click(function(){
-		$(this).blur();
+	  $(this).attr('src', 'img/konkurs.png');
 	});
 	
 });
 
 
-//слик-слайдер
+//слик-слайдеры
 $(window).load(function() {
 	
 	$('.single-item').slick({
